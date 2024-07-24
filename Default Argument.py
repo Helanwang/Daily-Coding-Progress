@@ -44,3 +44,23 @@ historical_temps1.display()
 
 historical_temps2 = HistoricalTemps("12345", "11-21", "01-02")
 historical_temps2.display()
+
+
+class Item:
+    def __init__(self, name: str, quantity: int = 5, price: int = 13):
+        self.name = name
+        self.quantity = quantity
+        self.price = price
+
+    def display(self):
+        print(f"Name: {self.name}")
+        print(f"Quantity: {self.quantity}")
+        print(f"Price: {self.price}")
+
+
+item1 = Item("Helen")
+item1.display()
+
+
+item2 = Item("Bob", quantity=5, price=100)
+item2.display()

@@ -5,3 +5,42 @@ def student(firstname, lastname="Mark"):
 
 student("John")
 student("John", "Doe")
+
+
+class Person:
+    def __init__(self, firstname="Helen", lastname="wang", age=30):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.age = age
+
+    def display(self):
+        print(f"Hello, {self.firstname} {self.lastname}")
+
+
+person1 = Person()
+person1.display()
+
+person2 = Person("alice")
+person2.display()
+
+person3 = Person("Malcom", "Ben")
+person3.display()
+
+
+class HistoricalTemps:  # class example
+    def __init__(self, zip_code: str, start: str = "1950-08-13", end: str = "2023-08-25"):
+        self.zip_code = zip_code
+        self.start = start
+        self.end = end
+
+    def display(self):
+        print(f"Zip code: {self.zip_code}")
+        print(f"Start date: {self.start}")
+        print(f"End date: {self.end}")
+
+
+historical_temps1 = HistoricalTemps("12345")
+historical_temps1.display()
+
+historical_temps2 = HistoricalTemps("12345", "11-21", "01-02")
+historical_temps2.display()

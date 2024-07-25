@@ -1,0 +1,5 @@
+List, Tuples, Sets, Dictionary
+
+List: Changeable, Ordered, Can duplicated
+Tuples: Unchangeable, Ordered, Can duplicated
+Sets: Unordered, Unchangeable, Can't duplicates

@@ -72,4 +72,12 @@ list1.clear()
 print(list1)
 
 
+fruits = {"apple", "banana", "cherry"}
+more_fruits = ["orange", "mango", "grapes"]
+fruits.update(more_fruits)
+print(fruits)
+
+fruits = {"apple", "banana", "cherry"}
+fruits.discard("banana")
+print(fruits)
 

@@ -5,9 +5,12 @@ list1 = ["Apple", "Banana", "Orange", "Mango", "Pineapple", "Strawberry",
     "Fig", "Pomegranate", "Coconut", "Dragonfruit", "Lychee", "Passion fruit"]
 
 
+"""slicing the list"""
+print(list1[1:6])  # means slicing from 1 to 5.
+
 """Access the list"""
 print(list1)
-print(list1[0])  # the list index starts from zero
+print(list1[0])  # the list index starts from zero, print only index 0
 print(list1[5])
 
 print(list1[-1])  # -1 meaning starting from the last one of the list
@@ -70,6 +73,3 @@ print(list3)
 """clear the list, the list still remains."""
 list1.clear()
 print(list1)
-
-
-

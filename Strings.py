@@ -36,3 +36,4 @@ if "love" in txt1:
 txt2 = "Why does this matter?"
 if "love" not in txt2:
     print("It does not matter")  # It does not matter
+

@@ -23,3 +23,10 @@ for n in z:
 x = range(3, 51)  # count from 3 to 50
 for n in x:
     print(n)
+
+
+"""range(start, end, step)"""
+
+for i in range(0, 10, 2):  # output: 0, 2, 4, 6, 8
+    # starts from 0 to 10. increments 2 numbers apart.
+    print(i)
